@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Credentials & Tokens (NEVER COMMIT)
+wb_refresh_tokens.json
+wb_intl_tokens.json
+wb_login_result.json
+wb_intl_login_result.json
+tokens.txt
+token.txt
+.env*
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Zip packages (releases are uploaded via GitHub Releases)
+*.zip
